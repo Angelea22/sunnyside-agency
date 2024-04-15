@@ -1,0 +1,421 @@
+/* body {
+    
+} */
+
+img.orange {
+    position: absolute;
+    z-index: -1;
+    width: 1263px;
+    height: 1110px;
+    object-fit: cover;
+    top: 0;
+    left:  0;
+    clip: rect(0px, 3440px, 630px, 0px);
+}
+
+header {
+    color: white;
+}
+
+img.egg {
+    position: absolute;
+    z-index: -2;
+    width: 640px;
+    height: 600px;
+    margin-top: 338px;
+    margin-left: 615px;
+    object-fit: cover;
+}
+
+img.glass {
+    position: absolute;
+    z-index: -2;
+    width: 623px;
+    height: 600px;
+    margin-top: 877px;
+    left: 0;
+    object-fit: cover;
+    clip: rect(60px, 3440px, 550px, 0px);
+}
+
+img.cherries {
+    position: absolute;
+    z-index: -2;
+    width: 700px;
+    height: 900px;
+    margin-top: 1097px;
+    object-fit: cover;
+    transform: translate(-60px, -90px);
+    clip: rect(420px, 675px, 900px, 0px);
+}
+
+img.clementine {
+    position: absolute;
+    z-index: -2;
+    max-width: 650px;
+    height: 900px;
+    margin-top: 1097px;
+    object-fit: cover;
+    margin-left: 100px;
+    transform: translate(505px, -90px);
+    clip: rect(420px, 650px, 900px, 10px);
+}
+
+section {
+    font-family: "Barlow";
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 11px;
+    display: flex;
+    position: absolute;
+    margin-left: 770px;
+}
+
+h1.creatives {
+    font: "Fraunces" 9pt Soft;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 56px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    padding-top: 150px;
+    padding-left: 380px;
+}
+
+h1.sunny {
+    font-size:20px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.about {
+    font-size: 18px;
+}
+
+.service {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.project {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 25px;
+    border-radius: 35px;
+    color: white;
+    background-color: lightblue;
+    border: 0;
+} 
+
+.text {
+    position: absolute;
+    padding-top: 450px;
+
+}
+
+#paras {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600px;
+    max-width: 450px;
+}
+
+h3.transform {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    margin-left: 85px;
+    max-width: 445px;
+}
+
+p.transform {
+    margin-left: 85px;
+    color: #808397;
+    font-family: "Barlow";
+    font-weight: 600;
+}
+
+h3.standout {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    padding-top: 300px;
+    margin-left: 750px;
+    max-width: 450px;
+}
+
+p.standout {
+    margin-left: 750px;    
+    color: #808397;
+    font-family: "Barlow";
+    font-weight: 600;
+}
+
+#bottom {
+    padding-top: 1690px;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3.graphic {
+    max-width: 500px;
+    padding-left: 100px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    color: #24554A;
+}
+
+p.graphic {
+    position: absolute;
+    padding-top: 80px;
+    font-size: 16px;
+    color: #3E7467;
+    font-family: "Barlow";
+    font-weight: 600;
+    text-align: center;
+    width: 380px;
+}
+
+h3.photography {
+    padding-left: 750px;
+    font-size: 28px;
+    font-weight: 900;
+    transform: translate(0px, -90px);
+    color: #24554A;
+}
+
+p.photography {
+    position: absolute;
+    padding-left: 670px;
+    padding-top: 80px;
+    font-size: 16px;   
+    color: #3E7467;
+    font-family: "Barlow";
+    font-weight: 600;
+    text-align: center;
+    width: 340px;
+}
+
+section.clients {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+h3.client {
+    position: absolute;
+    transform: translate(-330px, -20px);
+    width: 348px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Fraunces";
+    color: #A7AAAD;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.cimages {
+    display: flex;
+    flex-direction: row;
+    gap: 330px;
+    border: 0;
+    width: 72px;
+    height: 72px;
+    /* padding-top: 900px; */
+    transform: translate(-1360px, 110px);
+
+}
+
+.woman {
+    border-radius: 40px;
+}
+
+.man {
+    border-radius: 40px;
+}
+
+.oldwoman {
+    border-radius: 40px;
+}
+
+#cparas {
+    transform: translate(-730px, 230px);
+    text-align: center;
+    width: 350px;
+    font: "Barlow";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #5B636D; 
+}
+
+p.epara {
+    position: absolute;
+    font: "Barlow";
+    font-weight: 600;
+    color: #5B636D; 
+}
+
+p.tpara {
+    position: absolute;
+    padding-left: 400px;
+}
+
+p.jpara {
+    position: absolute;
+    padding-left: 800px;
+}
+
+#cnames {
+    padding-top: 150px;
+    transform: translate(-610px, 230px);
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-weight: 900px;
+    display: grid;
+}
+
+.emily {
+    width: 100px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.thomas {
+    width: 100px;
+    position: absolute;
+    padding-left: 410px;
+}
+
+.jennie {
+    width: 100px;
+    position: absolute;
+    padding-left: 810px;
+}
+
+img.milkb {
+    position: absolute;
+    width: 320px;
+    height: 440px;
+    object-fit: cover;
+    margin-top: 750px;
+    left: 0;
+}
+
+img.orplate {
+    position: absolute;
+    width: 320px;
+    height: 440px;
+    object-fit: cover;
+    margin-top: 750px;
+    margin-left: 300px;
+}
+
+img.cone {
+    position: absolute;
+    width: 320px;
+    height: 440px;
+    object-fit: cover;
+    margin-top: 750px;
+    margin-left: 620px;
+}
+
+img.sugar {
+    position: absolute;
+    width: 320px;
+    height: 440px;
+    object-fit: cover;
+    margin-top: 750px;
+    margin-left: 935px;
+}
+
+.color {
+    z-index: -3;
+    background-color: #90D4C6;
+    transform: translate(-1200px, -75px);
+    width: 1285px;
+    height: 400px;
+}
+
+nav {
+    font-family: "Barlow";
+    margin-top: 750px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    padding-top: 500px;
+    margin-left: 400px;
+}
+
+.navname {
+    font-family: "Barlow";
+    font-weight: 900;
+    font-size: 28px;
+    margin-left: 150px;
+    color: #2C7566;
+}
+
+.navlinks {
+    display: grid;
+    grid-template-columns: 100px 120px 100px 100px;
+    transform: translate(-690px, 90px);
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.navabout {
+    color:#2C7566;
+}
+
+.navabout:hover {
+    color: white;
+}
+
+.navservices {
+    color: #2C7566;
+}
+
+.navservices:hover {
+    color: white;
+}
+
+.navprojects {
+    color: #2C7566;
+}
+
+.navprojects:hover {
+    color: white;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    width: 140px;
+    padding-top: 210px;
+    padding-left: 150px;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    img.orange {
+        width: fit-content;
+
+
+    }
+    
+}
